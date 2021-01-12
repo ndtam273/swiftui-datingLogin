@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77A733A25AD93A900D66DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A733925AD93A900D66DA4 /* AppDelegate.swift */; };
+		F77A733C25AD93A900D66DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A733B25AD93A900D66DA4 /* SceneDelegate.swift */; };
+		F77A733E25AD93A900D66DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A733D25AD93A900D66DA4 /* ContentView.swift */; };
+		F77A734025AD93AD00D66DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77A733F25AD93AD00D66DA4 /* Assets.xcassets */; };
+		F77A734325AD93AD00D66DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77A734225AD93AD00D66DA4 /* Preview Assets.xcassets */; };
+		F77A734625AD93AD00D66DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77A734425AD93AD00D66DA4 /* LaunchScreen.storyboard */; };
+		F77A735125AD93AD00D66DA4 /* Dating_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A735025AD93AD00D66DA4 /* Dating_LoginTests.swift */; };
+		F77A735C25AD93AD00D66DA4 /* Dating_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A735B25AD93AD00D66DA4 /* Dating_LoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77A734D25AD93AD00D66DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77A732E25AD93A900D66DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77A733525AD93A900D66DA4;
+			remoteInfo = "Dating Login";
+		};
+		F77A735825AD93AD00D66DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77A732E25AD93A900D66DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77A733525AD93A900D66DA4;
+			remoteInfo = "Dating Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77A733625AD93A900D66DA4 /* Dating Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dating Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A733925AD93A900D66DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77A733B25AD93A900D66DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F77A733D25AD93A900D66DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F77A733F25AD93AD00D66DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77A734225AD93AD00D66DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F77A734525AD93AD00D66DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77A734725AD93AD00D66DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77A734C25AD93AD00D66DA4 /* Dating LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dating LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A735025AD93AD00D66DA4 /* Dating_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dating_LoginTests.swift; sourceTree = "<group>"; };
+		F77A735225AD93AD00D66DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77A735725AD93AD00D66DA4 /* Dating LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dating LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A735B25AD93AD00D66DA4 /* Dating_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dating_LoginUITests.swift; sourceTree = "<group>"; };
+		F77A735D25AD93AD00D66DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77A733325AD93A900D66DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A734925AD93AD00D66DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A735425AD93AD00D66DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77A732D25AD93A900D66DA4 = {
+			isa = PBXGroup;
+			children = (
+				F77A733825AD93A900D66DA4 /* Dating Login */,
+				F77A734F25AD93AD00D66DA4 /* Dating LoginTests */,
+				F77A735A25AD93AD00D66DA4 /* Dating LoginUITests */,
+				F77A733725AD93A900D66DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77A733725AD93A900D66DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77A733625AD93A900D66DA4 /* Dating Login.app */,
+				F77A734C25AD93AD00D66DA4 /* Dating LoginTests.xctest */,
+				F77A735725AD93AD00D66DA4 /* Dating LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77A733825AD93A900D66DA4 /* Dating Login */ = {
+			isa = PBXGroup;
+			children = (
+				F77A733925AD93A900D66DA4 /* AppDelegate.swift */,
+				F77A733B25AD93A900D66DA4 /* SceneDelegate.swift */,
+				F77A733D25AD93A900D66DA4 /* ContentView.swift */,
+				F77A733F25AD93AD00D66DA4 /* Assets.xcassets */,
+				F77A734425AD93AD00D66DA4 /* LaunchScreen.storyboard */,
+				F77A734725AD93AD00D66DA4 /* Info.plist */,
+				F77A734125AD93AD00D66DA4 /* Preview Content */,
+			);
+			path = "Dating Login";
+			sourceTree = "<group>";
+		};
+		F77A734125AD93AD00D66DA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F77A734225AD93AD00D66DA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F77A734F25AD93AD00D66DA4 /* Dating LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F77A735025AD93AD00D66DA4 /* Dating_LoginTests.swift */,
+				F77A735225AD93AD00D66DA4 /* Info.plist */,
+			);
+			path = "Dating LoginTests";
+			sourceTree = "<group>";
+		};
+		F77A735A25AD93AD00D66DA4 /* Dating LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77A735B25AD93AD00D66DA4 /* Dating_LoginUITests.swift */,
+				F77A735D25AD93AD00D66DA4 /* Info.plist */,
+			);
+			path = "Dating LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77A733525AD93A900D66DA4 /* Dating Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77A736025AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating Login" */;
+			buildPhases = (
+				F77A733225AD93A900D66DA4 /* Sources */,
+				F77A733325AD93A900D66DA4 /* Frameworks */,
+				F77A733425AD93A900D66DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dating Login";
+			productName = "Dating Login";
+			productReference = F77A733625AD93A900D66DA4 /* Dating Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77A734B25AD93AD00D66DA4 /* Dating LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77A736325AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating LoginTests" */;
+			buildPhases = (
+				F77A734825AD93AD00D66DA4 /* Sources */,
+				F77A734925AD93AD00D66DA4 /* Frameworks */,
+				F77A734A25AD93AD00D66DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77A734E25AD93AD00D66DA4 /* PBXTargetDependency */,
+			);
+			name = "Dating LoginTests";
+			productName = "Dating LoginTests";
+			productReference = F77A734C25AD93AD00D66DA4 /* Dating LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77A735625AD93AD00D66DA4 /* Dating LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77A736625AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating LoginUITests" */;
+			buildPhases = (
+				F77A735325AD93AD00D66DA4 /* Sources */,
+				F77A735425AD93AD00D66DA4 /* Frameworks */,
+				F77A735525AD93AD00D66DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77A735925AD93AD00D66DA4 /* PBXTargetDependency */,
+			);
+			name = "Dating LoginUITests";
+			productName = "Dating LoginUITests";
+			productReference = F77A735725AD93AD00D66DA4 /* Dating LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77A732E25AD93A900D66DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F77A733525AD93A900D66DA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F77A734B25AD93AD00D66DA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F77A733525AD93A900D66DA4;
+					};
+					F77A735625AD93AD00D66DA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F77A733525AD93A900D66DA4;
+					};
+				};
+			};
+			buildConfigurationList = F77A733125AD93A900D66DA4 /* Build configuration list for PBXProject "Dating Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77A732D25AD93A900D66DA4;
+			productRefGroup = F77A733725AD93A900D66DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77A733525AD93A900D66DA4 /* Dating Login */,
+				F77A734B25AD93AD00D66DA4 /* Dating LoginTests */,
+				F77A735625AD93AD00D66DA4 /* Dating LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77A733425AD93A900D66DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A734625AD93AD00D66DA4 /* LaunchScreen.storyboard in Resources */,
+				F77A734325AD93AD00D66DA4 /* Preview Assets.xcassets in Resources */,
+				F77A734025AD93AD00D66DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A734A25AD93AD00D66DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A735525AD93AD00D66DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77A733225AD93A900D66DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A733A25AD93A900D66DA4 /* AppDelegate.swift in Sources */,
+				F77A733C25AD93A900D66DA4 /* SceneDelegate.swift in Sources */,
+				F77A733E25AD93A900D66DA4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A734825AD93AD00D66DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A735125AD93AD00D66DA4 /* Dating_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A735325AD93AD00D66DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A735C25AD93AD00D66DA4 /* Dating_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77A734E25AD93AD00D66DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77A733525AD93A900D66DA4 /* Dating Login */;
+			targetProxy = F77A734D25AD93AD00D66DA4 /* PBXContainerItemProxy */;
+		};
+		F77A735925AD93AD00D66DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77A733525AD93A900D66DA4 /* Dating Login */;
+			targetProxy = F77A735825AD93AD00D66DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F77A734425AD93AD00D66DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77A734525AD93AD00D66DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77A735E25AD93AD00D66DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77A735F25AD93AD00D66DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77A736125AD93AD00D66DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dating Login/Preview Content\"";
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dating Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77A736225AD93AD00D66DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dating Login/Preview Content\"";
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dating Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77A736425AD93AD00D66DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				INFOPLIST_FILE = "Dating LoginTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dating Login.app/Dating Login";
+			};
+			name = Debug;
+		};
+		F77A736525AD93AD00D66DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				INFOPLIST_FILE = "Dating LoginTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dating Login.app/Dating Login";
+			};
+			name = Release;
+		};
+		F77A736725AD93AD00D66DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				INFOPLIST_FILE = "Dating LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dating Login";
+			};
+			name = Debug;
+		};
+		F77A736825AD93AD00D66DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FAS8SJC5RK;
+				INFOPLIST_FILE = "Dating LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ndtam.swiftui.datinglogin.Dating-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dating Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77A733125AD93A900D66DA4 /* Build configuration list for PBXProject "Dating Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A735E25AD93AD00D66DA4 /* Debug */,
+				F77A735F25AD93AD00D66DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77A736025AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A736125AD93AD00D66DA4 /* Debug */,
+				F77A736225AD93AD00D66DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77A736325AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A736425AD93AD00D66DA4 /* Debug */,
+				F77A736525AD93AD00D66DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77A736625AD93AD00D66DA4 /* Build configuration list for PBXNativeTarget "Dating LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A736725AD93AD00D66DA4 /* Debug */,
+				F77A736825AD93AD00D66DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77A732E25AD93A900D66DA4 /* Project object */;
+}
