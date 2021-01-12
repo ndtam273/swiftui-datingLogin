@@ -51,6 +51,49 @@ struct Home: View {
                         .frame(width: (UIScreen.main.bounds.width - 50) / 2)
                 }.background(self.index == 1 ? Color.white : Color.clear)
                 .clipShape(Capsule())
-            }.background(Color.black.opacity(0.1)).clipShape(Capsule())        }
+            }.background(Color.black.opacity(0.1))
+            .clipShape(Capsule())
+            .padding(.top, 25)
+            Login()
+        }
+        .padding()
+    }
+}
+
+struct Login: View {
+    @State var mail = ""
+    @State var pass = ""
+    var body: some View {
+        VStack {
+            HStack(spacing: 15){
+                Image(systemName: "envelope")
+                    .foregroundColor(.black)
+                TextField("Enter Email Address", text: self.$mail)
+            }.padding(.vertical, 20)
+            
+            Divider()
+            
+            HStack(spacing: 20){
+                Image(systemName: "lock")
+                    .resizable()
+                    .frame(width: 15, height: 18)
+                    .foregroundColor(.black)
+                SecureField("Enter Password", text: self.$pass)
+                Button(action: {
+                    
+                }) {
+                    Image(systemName: "eye")
+                        .foregroundColor(.black)
+                }
+            }.padding(.vertical, 20)
+            
+          
+            
+            
+        }
+        .padding(.vertical)
+        .padding(.horizontal, 20)
+        .background(Color.white)
+        .cornerRadius(10)
     }
 }
