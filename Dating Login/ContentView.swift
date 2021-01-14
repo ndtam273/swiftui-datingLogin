@@ -11,7 +11,16 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             LinearGradient(gradient: .init(colors: [Color("Color"), Color("Color1"), Color("Color2")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
-            Home()
+            
+            if UIScreen.main.bounds.height > 800 {
+                Home()
+            } else {
+                ScrollView(.vertical, showsIndicators: false, content: {
+                    Home()
+                })
+                
+            }
+            
         }
     }
 }
@@ -19,6 +28,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone X"))
     }
 }
 
@@ -66,16 +76,47 @@ struct Home: View {
                 Login()
             }
             
-            Button(action: {
-                
-            }) {
-                Text("Forgot Password?")
-                    .foregroundColor(.white)
+            if self.index == 0 {
+                Button(action: {
+                    
+                }) {
+                    Text("Forgot Password?")
+                        .foregroundColor(.white)
+                }
+                .padding(.top, 10)
             }
             
-            HStack {
+            
+            HStack(spacing: 15) {
+                Color.white.opacity(0.7)
+                    .frame(width: 20, height: 1)
+                Text("Or")
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                Color.white.opacity(0.7)
+                    .frame(width: 20, height: 1)
+            }
+            .padding(.top, 10)
+            
+            HStack(spacing: 15) {
+                Button(action: {} ) {
+                    Image("fb")
+                        .renderingMode(.original)
+                        .padding()
+                }.background(Color.white)
+                .clipShape(Circle())
+                
+                Button(action: {} ) {
+                    Image("google")
+                        .renderingMode(.original)
+                        .padding()
+                }.background(Color.white)
+                .clipShape(Circle())
                 
             }
+            .padding(.top, 10)
+            
+            
             
         }
         .padding()
